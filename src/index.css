@@ -17,12 +17,18 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222 47% 11%;
 
-    --primary: 217 91% 60%;
+    --primary: 193 100% 50%;
     --primary-foreground: 0 0% 100%;
     
-    --primary-dark: 221 83% 53%;
-    --ocean-deep: 213 94% 35%;
-    --ocean-light: 199 89% 48%;
+    --primary-dark: 270 50% 50%;
+    --ocean-deep: 193 100% 35%;
+    --ocean-light: 193 100% 60%;
+    
+    --accent-purple: 270 50% 50%;
+    --accent-pink: 330 81% 60%;
+    --accent-cyan: 193 100% 50%;
+    --accent-green: 142 76% 36%;
+    --accent-yellow: 48 100% 50%;
 
     --secondary: 210 40% 96%;
     --secondary-foreground: 222 47% 11%;
@@ -30,7 +36,7 @@ All colors MUST be HSL.
     --muted: 210 40% 96%;
     --muted-foreground: 215 16% 47%;
 
-    --accent: 199 89% 48%;
+    --accent: 193 100% 50%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
@@ -38,14 +44,16 @@ All colors MUST be HSL.
 
     --border: 214 32% 91%;
     --input: 214 32% 91%;
-    --ring: 217 91% 60%;
+    --ring: 193 100% 50%;
 
     --radius: 0.75rem;
     
     /* Custom tokens */
-    --gradient-ocean: linear-gradient(135deg, hsl(var(--ocean-deep)), hsl(var(--primary)));
+    --gradient-ocean: linear-gradient(135deg, hsl(var(--accent-cyan)), hsl(var(--ocean-light)));
+    --gradient-vibrant: linear-gradient(135deg, hsl(var(--accent-purple)), hsl(var(--accent-cyan)), hsl(var(--accent-pink)));
     --gradient-light: linear-gradient(180deg, hsl(var(--background)), hsl(var(--secondary)));
     --shadow-ocean: 0 10px 40px -10px hsl(var(--primary) / 0.3);
+    --shadow-vibrant: 0 10px 40px -10px hsl(var(--accent-cyan) / 0.4);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
@@ -75,12 +83,18 @@ All colors MUST be HSL.
     --popover: 222 47% 11%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 199 89% 48%;
+    --primary: 193 100% 50%;
     --primary-foreground: 0 0% 100%;
     
-    --primary-dark: 213 94% 35%;
-    --ocean-deep: 221 83% 53%;
-    --ocean-light: 217 91% 60%;
+    --primary-dark: 270 50% 50%;
+    --ocean-deep: 193 100% 35%;
+    --ocean-light: 193 100% 60%;
+    
+    --accent-purple: 270 50% 60%;
+    --accent-pink: 330 81% 60%;
+    --accent-cyan: 193 100% 50%;
+    --accent-green: 142 76% 45%;
+    --accent-yellow: 48 100% 60%;
 
     --secondary: 217 33% 17%;
     --secondary-foreground: 210 40% 98%;
@@ -88,7 +102,7 @@ All colors MUST be HSL.
     --muted: 217 33% 17%;
     --muted-foreground: 215 20% 65%;
 
-    --accent: 217 91% 60%;
+    --accent: 193 100% 50%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 63% 31%;
@@ -96,7 +110,7 @@ All colors MUST be HSL.
 
     --border: 217 33% 17%;
     --input: 217 33% 17%;
-    --ring: 217 91% 60%;
+    --ring: 193 100% 50%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;

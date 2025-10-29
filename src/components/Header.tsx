@@ -57,7 +57,7 @@ const Header = () => {
                 {item.label}
               </button>
             ))}
-            <Button onClick={() => scrollToSection('contato')} className="bg-gradient-to-r from-ocean-deep to-primary hover:opacity-90">
+            <Button onClick={() => scrollToSection('contato')} className="bg-gradient-to-r from-accent-cyan to-accent-purple hover:opacity-90">
               Solicitar Orçamento
             </Button>
           </nav>
@@ -83,7 +83,7 @@ const Header = () => {
                 {item.label}
               </button>
             ))}
-            <Button onClick={() => scrollToSection('contato')} className="w-full bg-gradient-to-r from-ocean-deep to-primary">
+            <Button onClick={() => scrollToSection('contato')} className="w-full bg-gradient-to-r from-accent-cyan to-accent-purple">
               Solicitar Orçamento
             </Button>
           </nav>
