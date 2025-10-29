@@ -49,7 +49,7 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Nossos <span className="bg-gradient-to-r from-accent-cyan via-accent-purple to-accent-pink bg-clip-text text-transparent">Serviços</span>
+            Nossos <span className="bg-gradient-to-r from-ocean-deep to-primary bg-clip-text text-transparent">Serviços</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Soluções completas em impressão com qualidade, agilidade e atendimento personalizado
@@ -59,16 +59,8 @@ const Services = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => {
             const Icon = service.icon;
-            const gradients = [
-              'from-accent-cyan to-accent-purple',
-              'from-accent-purple to-accent-pink', 
-              'from-accent-cyan to-accent-green',
-              'from-accent-pink to-accent-purple',
-              'from-accent-green to-accent-cyan',
-              'from-accent-purple to-accent-cyan'
-            ];
             return (
-              <Card key={index} className="group hover:shadow-vibrant transition-all duration-300 overflow-hidden">
+              <Card key={index} className="group hover:shadow-ocean transition-all duration-300 overflow-hidden">
                 {service.image && (
                   <div className="h-48 overflow-hidden">
                     <img 
@@ -80,7 +72,7 @@ const Services = () => {
                 )}
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
-                    <div className={`flex-shrink-0 w-12 h-12 rounded-lg bg-gradient-to-br ${gradients[index % gradients.length]} flex items-center justify-center`}>
+                    <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-gradient-to-br from-ocean-deep to-primary flex items-center justify-center">
                       <Icon className="h-6 w-6 text-primary-foreground" />
                     </div>
                     <div>

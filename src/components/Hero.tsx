@@ -19,7 +19,7 @@ const Hero = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center pt-20">
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-r from-background via-background/85 to-background/70 z-10" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background via-background/95 to-background/80 z-10" />
         <img
           src={heroImage}
           alt="Impressão Profissional"
@@ -31,7 +31,7 @@ const Hero = () => {
         <div className="max-w-2xl">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
             Transforme suas ideias em{' '}
-            <span className="bg-gradient-to-r from-accent-cyan via-accent-purple to-accent-pink bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-ocean-deep to-primary bg-clip-text text-transparent">
               impressões de qualidade
             </span>
           </h1>
@@ -54,7 +54,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               onClick={scrollToContact}
-              className="bg-gradient-to-r from-accent-cyan to-accent-purple hover:opacity-90 shadow-vibrant"
+              className="bg-gradient-to-r from-ocean-deep to-primary hover:opacity-90 shadow-ocean"
             >
               Solicitar Orçamento
               <ArrowRight className="ml-2 h-5 w-5" />
