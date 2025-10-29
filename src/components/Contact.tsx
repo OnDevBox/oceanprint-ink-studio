@@ -19,13 +19,13 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Telefone',
-      content: '+55 21 3786-9168',
-      link: 'tel:+552137869168',
+      content: '+55 21 99636-2601',
+      link: 'tel:+5521996362601',
     },
   ];
 
   const openWhatsApp = () => {
-    window.open('https://wa.me/552137869168', '_blank');
+    window.open('https://wa.me/5521996362601', '_blank');
   };
 
   return (
