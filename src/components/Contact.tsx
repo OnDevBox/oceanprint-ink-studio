@@ -7,8 +7,8 @@ const Contact = () => {
     {
       icon: MapPin,
       title: 'Endereço',
-      content: 'Rua Doutor Cornélio de Mello Júnior, Rua do Salesiano, 17',
-      content2: 'Piratininga, Niterói - RJ, 24350-280',
+      content: 'Praça do Barroco - Av. Zumbi dos Palmares, SN - QD 10 LT 12',
+      content2: 'Barroco, Maricá - RJ, 24936-530',
     },
     {
       icon: Mail,
@@ -19,13 +19,13 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Telefone',
-      content: '+55 21 99636-2601',
-      link: 'tel:+5521996362601',
+      content: '+55 21 3786-9168',
+      link: 'tel:+552137869168',
     },
   ];
 
   const openWhatsApp = () => {
-    window.open('https://wa.me/5521996362601', '_blank');
+    window.open('https://wa.me/552137869168', '_blank');
   };
 
   return (
