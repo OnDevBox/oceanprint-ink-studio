@@ -95,14 +95,14 @@ const Contact = () => {
           <Card className="overflow-hidden h-[500px]">
             <CardContent className="p-0 h-full">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.0537889947394!2d-43.10464!3d-22.90611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f5c8e8e8e8e8f%3A0x1234567890abcdef!2sRua%20Doutor%20Corn%C3%A9lio%20de%20Mello%20J%C3%BAnior%2C%2017%20-%20Piratininga%2C%20Niter%C3%B3i%20-%20RJ%2C%2024350-280!5e0!3m2!1spt-BR!2sbr!4v1234567890123!5m2!1spt-BR!2sbr"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.8!2d-42.8194!3d-22.9194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9983e7b8e8e8e8e8%3A0x1234567890abcdef!2sITATIAIU%C3%87U%20PRAIA%20SHOPPING%20-%20Av.%20Zumbi%20dos%20Palmares%2C%20SN%20-%20Barroco%2C%20Maric%C3%A1%20-%20RJ%2C%2024936-530!5e0!3m2!1spt-BR!2sbr!4v1647890123456!5m2!1spt-BR!2sbr"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Localização Ocean Print"
+                title="Localização Ocean Print - ITATIAIUÇU PRAIA SHOPPING"
               />
             </CardContent>
           </Card>
