@@ -7,8 +7,8 @@ const Contact = () => {
     {
       icon: MapPin,
       title: 'Endereço',
-      content: 'Praça do Barroco - Av. Zumbi dos Palmares, SN - LOJA 4 QD 10 LT 12 - ITATIAIUÇU PRAIA SHOPPING',
-      content2: 'Barroco, Maricá - RJ, 24936-530',
+      content: 'Av. Zumbi dos Palmares, Loja 4 - Itapeba',
+      content2: '(Praça do Barroco, Itatiaiuçu Praia Shopping), Maricá - RJ, 24936-530',
     },
     {
       icon: Mail,
