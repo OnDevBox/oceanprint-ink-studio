@@ -7,8 +7,8 @@ const Contact = () => {
     {
       icon: MapPin,
       title: 'Endereço',
-      content: 'Av. Zumbi dos Palmares, Loja 4 - Itapeba',
-      content2: '(Praça do Barroco, Itatiaiuçu Praia Shopping), Maricá - RJ, 24936-530',
+      content: 'Praça do Barroco - Av. Zumbi dos Palmares, SN - QD 10 LT 12 (Itatiaiuçu Praia Shopping)',
+      content2: 'Barroco, Maricá - RJ, 24936-530',
     },
     {
       icon: Mail,
@@ -95,7 +95,7 @@ const Contact = () => {
           <Card className="overflow-hidden h-[500px]">
             <CardContent className="p-0 h-full">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.8!2d-42.8194!3d-22.9194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9983e7b8e8e8e8e8%3A0x1234567890abcdef!2sITATIAIU%C3%87U%20PRAIA%20SHOPPING%20-%20Av.%20Zumbi%20dos%20Palmares%2C%20SN%20-%20Barroco%2C%20Maric%C3%A1%20-%20RJ%2C%2024936-530!5e0!3m2!1spt-BR!2sbr!4v1647890123456!5m2!1spt-BR!2sbr"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d459.2235322925679!2d-42.9799169484183!3d-22.95802394351076!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99866203557a5d%3A0xf07839399c4d9dcd!2sOcean%20Print%20-%20Carimbo%2C%20Plotagem%2C%20Gr%C3%A1fica.!5e0!3m2!1spt-BR!2sbr!4v1763118567440!5m2!1spt-BR!2sbr"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
